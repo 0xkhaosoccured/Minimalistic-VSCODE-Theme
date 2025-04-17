@@ -1,0 +1,64 @@
+{
+
+    "workbench.colorTheme": "yuyuko-vim-vsc",
+
+    //Editor 
+    "editor.smoothScrolling": true,
+    "editor.mouseWheelZoom": true,
+    "editor.fontFamily": "'Fira Code', 'JetBrains Mono', Consolas, monospace",
+    "editor.fontLigatures": true,
+    "files.autoSave": "onFocusChange",
+    "editor.wordWrap": "on",
+    "editor.cursorStyle": "block",
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.editor.pinnedTabSizing": "compact",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.value": 10,
+    "workbench.editor.enablePreviewFromQuickOpen": true,
+    "workbench.editor.enablePreviewFromCodeNavigation": true,
+    "workbench.editor.autoLockGroups": {
+        "terminalEditor": false
+    },
+    "workbench.editor.titleScrollbarSizing": "default",
+    "workbench.editor.empty.hint": "hidden",
+
+
+    //terminal
+    "terminal.explorerKind": "external",
+    "terminal.integrated.mouseWheelZoom": true,
+    "terminal.integrated.gpuAcceleration": "on",
+    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.profiles.windows": {
+    "CMD Custom": {
+        "path": ["C:\\Windows\\System32\\cmd.exe"],
+        "args": ["/k", "C:\\scripts\\custom_prompt.cmd"]
+    }
+    },
+    "terminal.integrated.defaultProfile.windows": "CMD Custom",
+
+
+    //extensions
+    "material-icon-theme.activeIconPack": "angular",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "material-icon-theme.folders.theme": "classic",
+    "material-icon-theme.files.color": "#7cb342",
+    "vscode-pets.theme": "forest",
+    "vscode-pets.petSize": "medium",
+    "workbench.iconTheme": "bearded-icons",
+
+    //misc
+    "explorer.confirmDelete": false,
+    "git.enableSmartCommit": true,
+    "window.titleBarStyle": "custom",
+    "window.density.editorTabHeight": "compact",
+    "editor.renderWhitespace": "none",
+    "workbench.activityBar.location": "hidden",
+    "window.menuBarVisibility": "compact",
+    "window.commandCenter": false,
+    "workbench.layoutControl.enabled": false,
+    "chat.commandCenter.enabled": false,
+    "editor.tabSize": 2,
+    "editor.minimap.enabled": false,
+    "editor.stickyScroll.enabled": false
+}
